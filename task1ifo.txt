@@ -1,0 +1,1 @@
+I've created a simple Python program that creates lists, sets, and dictionaries, and performs operations like adding, modifying, and deleting elements in them.
