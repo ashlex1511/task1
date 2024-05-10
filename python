@@ -1,0 +1,25 @@
+#1. Create a list
+list=[2,4,7,8,9]
+print("Original list :", list)
+list.append(90)
+list.remove(4)
+list[3]=87
+print("Updated list :" , list)
+
+#2 cretae a set 
+s={1,2,3,5,6}
+print("Original set:", s)
+s.add(7)
+s.remove(1)
+s.discard(2)
+s.add(10)
+print("Updated set :", s)
+
+# 3 Create a dictionary
+
+info={"name":"Neha", "age":19, "City":"Delhi"}
+print("Original dictionary :", info)
+info["dob"]="2003-12-11"
+del info["City"]
+info["age"]=20
+print("Updated dictionary :", info)
